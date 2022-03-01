@@ -1,0 +1,34 @@
+#admin-user-reviews-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 10%;
+  width: 100%;
+
+}
+
+#admin-user-reviews-header-label {
+  width: 15%;
+  line-height: 2em;
+  vertical-align: center;
+}
+
+#admin-user-reviews-header-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+#admin-user-reviews-search-button {
+  height: 60%;
+  width: 15%;
+  margin: 0 1% 0 1%;
+  font-size: 1.25em;
+}
+
+#admin-user-reviews-input {
+  width: 100%;
+}

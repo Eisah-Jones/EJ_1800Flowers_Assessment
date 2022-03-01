@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #d0d0d0;
+}
+
+.App-logo {
+  margin-left: 1%;
+  padding: 0.5%;
+  height: 7vmin;
+  border: 2px solid #412459;
+  border-radius: 10px;
+  pointer-events: none;
+  background: #bb98d9;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.screen {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  height: 79%;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  background: #5b4967;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bb98d9;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #be93e5;
+}

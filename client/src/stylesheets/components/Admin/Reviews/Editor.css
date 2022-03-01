@@ -1,0 +1,63 @@
+#admin-reviews-editor-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 48%;
+}
+
+#admin-reviews-editor-container > h1 {
+  height: 3%;
+}
+
+#admin-reviews-editor-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  height: 90%;
+  width: 100%;
+  background-color: #bb98d9;
+  overflow-y: auto;
+}
+
+#admin-reviews-editor-form-container > h2 {
+  width: 65%;
+}
+
+#admin-reviews-editor-title-search-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 20%;
+}
+#admin-reviews-editor-title-search-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+#admin-reviews-editor-title-search-button {
+  width: 25%;
+  height: 50%;
+  margin-top: 2%;
+  font-size: 1.25em;
+}
+
+.admin-reviews-editor-button {
+  width: 30%;
+  height: 90%;
+  margin-top: 2%;
+  font-size: 1.25em;
+}
+
+.admin-reviews-editor-row-flex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
